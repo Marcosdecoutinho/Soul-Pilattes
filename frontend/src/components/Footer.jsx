@@ -1,6 +1,6 @@
-import { Instagram, Facebook, Youtube, MapPin, Clock, Mail } from "lucide-react";
-import { KoiMark, WhatsAppIcon, Reveal } from "./shared";
-import { STUDIO, WA_DEFAULT } from "../config";
+import { Instagram, MapPin, Clock } from "lucide-react";
+import { WhatsAppIcon, Reveal } from "./shared";
+import { STUDIO, WA_DEFAULT, IMAGES } from "../config";
 import { scrollToId } from "../lib/scroll";
 
 export default function Footer() {
@@ -10,10 +10,11 @@ export default function Footer() {
                 <div className="grid gap-14 md:grid-cols-2 lg:grid-cols-4">
                     <div>
                         <div className="flex items-center gap-3">
-                            <KoiMark className="h-10 w-10" />
-                            <span className="font-serif text-xl tracking-wide text-paper">
-                                Soul <span className="italic text-royal-glow">Pilattes</span>
-                            </span>
+                            <img
+                                src={IMAGES.logo.src}
+                                alt="Logotipo Soul Pilattes"
+                                className="h-16 w-16 rounded-full"
+                            />
                         </div>
                         <p className="mt-5 max-w-xs font-serif text-lg italic leading-relaxed text-paper/70">
                             “{STUDIO.tagline}”
@@ -36,10 +37,16 @@ export default function Footer() {
                             <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-royal-light" />
                             <p data-testid="footer-address">{STUDIO.address}</p>
                         </div>
-                        <div className="mt-4 flex items-start gap-3 text-sm font-light text-mist">
-                            <Mail className="mt-0.5 h-4 w-4 shrink-0 text-royal-light" />
-                            <p>{STUDIO.email}</p>
-                        </div>
+                        <a
+                            data-testid="footer-phone-whatsapp"
+                            href={WA_DEFAULT}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="mt-4 flex items-center gap-3 text-sm font-light text-mist transition-colors duration-300 hover:text-paper"
+                        >
+                            <WhatsAppIcon className="h-4 w-4 shrink-0 text-royal-light" />
+                            {STUDIO.phoneLabel}
+                        </a>
                     </div>
 
                     <div>
@@ -62,30 +69,10 @@ export default function Footer() {
                                 href={STUDIO.instagram}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                aria-label="Instagram"
+                                aria-label="Instagram do Soul Pilattes"
                                 className="flex h-11 w-11 items-center justify-center rounded-full border border-white/15 text-paper/80 transition-all duration-300 hover:border-royal-light hover:bg-royal/15"
                             >
                                 <Instagram className="h-4 w-4" />
-                            </a>
-                            <a
-                                data-testid="footer-social-facebook"
-                                href={STUDIO.facebook}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                aria-label="Facebook"
-                                className="flex h-11 w-11 items-center justify-center rounded-full border border-white/15 text-paper/80 transition-all duration-300 hover:border-royal-light hover:bg-royal/15"
-                            >
-                                <Facebook className="h-4 w-4" />
-                            </a>
-                            <a
-                                data-testid="footer-social-youtube"
-                                href="https://youtube.com/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                aria-label="YouTube"
-                                className="flex h-11 w-11 items-center justify-center rounded-full border border-white/15 text-paper/80 transition-all duration-300 hover:border-royal-light hover:bg-royal/15"
-                            >
-                                <Youtube className="h-4 w-4" />
                             </a>
                         </div>
                         <div className="mt-8 space-y-2">
@@ -103,12 +90,9 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <div className="mt-16 flex flex-col items-start justify-between gap-4 border-t border-white/10 pt-8 md:flex-row md:items-center">
+                <div className="mt-16 border-t border-white/10 pt-8">
                     <p className="text-xs font-light text-mist">
                         © {new Date().getFullYear()} {STUDIO.name}. Todos os direitos reservados.
-                    </p>
-                    <p className="text-[10px] uppercase tracking-[0.2em] text-mist/60">
-                        Dados de contato de exemplo — troque pelas informações reais
                     </p>
                 </div>
             </div>

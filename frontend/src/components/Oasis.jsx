@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { Reveal, Eyebrow, PhotoChip, Waves } from "./shared";
+import { Reveal, Eyebrow, Waves } from "./shared";
 import { IMAGES } from "../config";
 
 export default function Oasis() {
@@ -53,11 +53,6 @@ export default function Oasis() {
                 </Reveal>
             </div>
 
-            <div className="relative z-20 mx-auto mt-10 max-w-7xl px-6 md:px-10">
-                <span className="inline-block">
-                    <PhotoChip file={IMAGES.oasis.file} />
-                </span>
-            </div>
         </section>
     );
 }

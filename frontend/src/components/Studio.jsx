@@ -17,8 +17,8 @@ export default function Studio() {
                     <Reveal delay={0.2}>
                         <p className="mt-6 text-base font-light leading-relaxed text-mist md:text-lg">
                             Sala principal ampla e iluminada, equipada com Cadillac, Reformer, Chair e
-                            Barrel de madeira moderna — e uma área de treino com espelhos grandes, piso
-                            emborrachado confortável e todos os acessórios para uma prática completa.
+                            Barrel de madeira moderna — e uma área de treino com espelhos grandes,
+                            tatames e todos os acessórios para uma prática completa.
                         </p>
                     </Reveal>
                 </div>
@@ -33,7 +33,6 @@ export default function Studio() {
                                     className="aspect-[4/3] w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
                                 />
                             </div>
-                            <PhotoChip file={IMAGES.sala1.file} />
                             <figcaption className="glass absolute bottom-4 right-4 z-10 rounded-2xl px-5 py-3">
                                 <p className="text-xs uppercase tracking-[0.25em] text-paper/80">
                                     Cadillac · Reformer · Chair · Barrel
@@ -54,7 +53,7 @@ export default function Studio() {
                             <PhotoChip file={IMAGES.sala2.file} />
                             <figcaption className="glass absolute bottom-4 right-4 z-10 rounded-2xl px-5 py-3">
                                 <p className="text-xs uppercase tracking-[0.25em] text-paper/80">
-                                    Espelhos · Piso emborrachado · Acessórios
+                                    Espelhos · Tatames · Acessórios
                                 </p>
                             </figcaption>
                         </figure>

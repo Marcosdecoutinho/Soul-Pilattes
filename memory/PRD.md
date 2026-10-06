@@ -25,14 +25,14 @@ Criar uma Landing Page moderna, elegante e responsiva para o estúdio de pilates
 7. Depoimentos (3 avaliações) ✔
 8. Footer: endereço, horários, redes sociais + botão flutuante WhatsApp ✔
 
-## Implementado (2026-10-06)
+## Implementado (2026-10-06) — atualizado com dados e fotos reais
 - Todas as 8 seções + marquee editorial + parallax no hero + reveal kinetic line-by-line + lenis
-- 6 imagens ilustrativas geradas por IA (placeholders com chip "SUA FOTO AQUI")
-- Menu mobile, testIDs em todos os interativos, prefers-reduced-motion respeitado
+- Logotipo real do cliente (recorte circular em public/logo.png, também usado como favicon)
+- Fotos reais: recepção, estrutura, lago e terapias (public/fotos/); hero com carpa véu azul/branca realista e área de treino com tatames geradas por IA
+- Planos: 1x/2x/3x por semana × Mensal/Trimestral/Semestral/Anual + modalidades (Gestantes, Idosos, Reabilitação, Jovens)
+- Dados reais: WhatsApp 5511913282658, Rua Agrolândia nº 242 — Jardim Camargo Novo/SP, Seg–Sex 08h–21h (sáb/dom fechado), Instagram @soulpilattes
+- Depoimentos reais de alunos (Agosto, Junho e Maio de 2026)
 
 ## Pendências / Backlog
-- P0: substituir número WhatsApp placeholder (5511999999999) em src/config.js
-- P0: trocar imagens ilustrativas pelas fotos reais (URLs em src/config.js)
-- P1: atualizar endereço/horários/redes reais no config
-- P1: depoimentos reais no lugar dos exemplos
+- P1: foto real da área de treino com espelhos (sala2 ainda é ilustração IA com chip "SUA FOTO AQUI")
 - P2: seção de equipe/professores; galeria de horários; formulário de contato

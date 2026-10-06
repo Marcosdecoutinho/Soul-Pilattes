@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowDown } from "lucide-react";
-import { WhatsAppIcon, KoiMark } from "./shared";
+import { WhatsAppIcon } from "./shared";
 import { IMAGES, WA_DEFAULT, STUDIO } from "../config";
 import { scrollToId } from "../lib/scroll";
 
@@ -58,7 +58,7 @@ export default function Hero() {
                     className="mb-6 inline-flex items-center gap-3 text-[11px] font-medium uppercase tracking-[0.4em] text-royal-glow"
                 >
                     <span className="h-px w-10 bg-gradient-to-r from-transparent to-royal-light" />
-                    Estúdio Boutique de Pilates
+                    Estúdio de Pilates e Terapias Manuais
                 </motion.p>
 
                 <motion.h1
@@ -123,11 +123,20 @@ export default function Hero() {
                 transition={{ duration: 1, delay: 1.6 }}
                 className="glass animate-float-y absolute bottom-12 right-6 z-10 hidden max-w-[240px] rounded-3xl p-5 md:right-10 lg:block"
             >
-                <div className="flex items-center gap-3">
-                    <KoiMark className="h-8 w-8" />
-                    <p className="font-serif text-sm italic text-paper/90">
-                        Movimento fluido, presença absoluta
-                    </p>
+                <div className="flex items-center gap-4">
+                    <img
+                        src={IMAGES.logo.src}
+                        alt="Logotipo Soul Pilattes"
+                        className="h-14 w-14 rounded-full ring-1 ring-white/15"
+                    />
+                    <div>
+                        <p className="font-serif text-sm italic text-paper/90">
+                            Movimento fluido, presença absoluta
+                        </p>
+                        <p className="text-[10px] uppercase tracking-[0.25em] text-mist">
+                            Estúdio de Pilates e Terapias Manuais
+                        </p>
+                    </div>
                 </div>
             </motion.div>
 

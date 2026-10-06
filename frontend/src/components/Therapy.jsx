@@ -1,4 +1,4 @@
-import { Reveal, Eyebrow, PhotoChip, WhatsAppIcon } from "./shared";
+import { Reveal, Eyebrow, WhatsAppIcon } from "./shared";
 import { IMAGES, WA_DEFAULT } from "../config";
 
 export default function Therapy() {
@@ -14,7 +14,6 @@ export default function Therapy() {
                                 className="aspect-[4/5] w-full object-cover transition-transform duration-700 hover:scale-[1.03]"
                             />
                         </div>
-                        <PhotoChip file={IMAGES.massagem.file} />
                     </div>
                 </Reveal>
 

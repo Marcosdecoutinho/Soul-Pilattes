@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
-import { KoiMark, WhatsAppIcon } from "./shared";
+import { WhatsAppIcon } from "./shared";
 import { scrollToId } from "../lib/scroll";
-import { WA_DEFAULT, STUDIO } from "../config";
+import { WA_DEFAULT, IMAGES } from "../config";
 
 const LINKS = [
     { label: "O Estúdio", href: "#estudio" },
@@ -39,10 +39,11 @@ export default function Nav() {
                     onClick={() => window.__lenis ? window.__lenis.scrollTo(0) : window.scrollTo({ top: 0, behavior: "smooth" })}
                     className="flex items-center gap-3"
                 >
-                    <KoiMark className="h-9 w-9" />
-                    <span className="font-serif text-lg tracking-wide text-paper">
-                        Soul <span className="italic text-royal-glow">Pilattes</span>
-                    </span>
+                    <img
+                        src={IMAGES.logo.src}
+                        alt="Soul Pilattes"
+                        className="h-11 w-11 rounded-full ring-1 ring-white/15"
+                    />
                 </button>
 
                 <div className="hidden items-center gap-9 lg:flex">

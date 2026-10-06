@@ -1,4 +1,4 @@
-import { Reveal, Eyebrow, PhotoChip } from "./shared";
+import { Reveal, Eyebrow } from "./shared";
 import { IMAGES } from "../config";
 
 const POINTS = [
@@ -61,7 +61,6 @@ export default function Reception() {
                                 className="aspect-[4/3] w-full object-cover transition-transform duration-700 hover:scale-[1.03]"
                             />
                         </div>
-                        <PhotoChip file={IMAGES.recepcao.file} />
                         <div className="glass absolute -bottom-6 left-6 rounded-2xl px-6 py-4 md:-left-8">
                             <p className="font-serif text-lg italic text-paper/90">Recepção & Boas-vindas</p>
                         </div>
