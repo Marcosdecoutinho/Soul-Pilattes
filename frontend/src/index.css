@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --ink: #050b14;
+    --ink-2: #0a1128;
+    --royal: #2563eb;
+    --royal-light: #3b82f6;
+    --mist: #94a3b8;
+    --paper: #f8fafc;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html.lenis,
+html.lenis body {
+    height: auto;
+}
+.lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+}
+
+body {
+    margin: 0;
+    background: var(--ink);
+    color: var(--paper);
+    font-family: "Outfit", system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+}
+
+::selection {
+    background: #2563eb;
+    color: #f8fafc;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #050b14;
+}
+::-webkit-scrollbar-thumb {
+    background: #1d4ed8;
+    border-radius: 8px;
+    border: 2px solid #050b14;
+}
+
+.text-metallic {
+    background: linear-gradient(100deg, #3b82f6 0%, #60a5fa 42%, #1d4ed8 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* ---- keyframes ---- */
+@keyframes marquee {
+    to {
+        transform: translateX(-50%);
+    }
+}
+@keyframes drift {
+    0%,
+    100% {
+        transform: translate(0, 0) scale(1);
+    }
+    50% {
+        transform: translate(46px, -34px) scale(1.1);
+    }
+}
+@keyframes drift-2 {
+    0%,
+    100% {
+        transform: translate(0, 0) scale(1);
+    }
+    50% {
+        transform: translate(-52px, 30px) scale(1.06);
+    }
+}
+@keyframes float-y {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+@keyframes ring-pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.45);
+    }
+    70% {
+        box-shadow: 0 0 0 18px rgba(37, 211, 102, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+    }
+}
+
+.animate-marquee {
+    animation: marquee 48s linear infinite;
+}
+.animate-drift {
+    animation: drift 15s ease-in-out infinite;
+}
+.animate-drift-2 {
+    animation: drift-2 19s ease-in-out infinite;
+}
+.animate-float-y {
+    animation: float-y 6s ease-in-out infinite;
+}
+.animate-ring {
+    animation: ring-pulse 2.4s ease-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .animate-marquee,
+    .animate-drift,
+    .animate-drift-2,
+    .animate-float-y,
+    .animate-ring {
+        animation: none;
+    }
+}

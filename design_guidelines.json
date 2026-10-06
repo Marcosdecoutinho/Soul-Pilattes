@@ -1,0 +1,84 @@
+{
+  "theme": "dark",
+  "design_context": "Marketing / Landing Page for Premium Pilates Studio (Urban Spa)",
+  "typography": {
+    "headings": "Playfair Display, serif",
+    "body": "Outfit, sans-serif",
+    "accents": "Playfair Display (italic for sophisticated accents)"
+  },
+  "colors": {
+    "background_primary": "#050B14",
+    "background_secondary": "#0A1128",
+    "accent_primary": "#2563EB",
+    "accent_metallic": "linear-gradient(135deg, #3B82F6 0%, #1D4ED8 100%)",
+    "text_primary": "#F8FAFC",
+    "text_secondary": "#94A3B8"
+  },
+  "visual_enhancers": {
+    "glassmorphism": "backdrop-blur-xl bg-white/5 border border-white/10",
+    "shapes": "fluid organic blobs in background to mimic the veil koi (carpa véu)",
+    "shadows": "soft diffuse shadows shadow-[0_8px_32px_rgba(37,99,235,0.15)]"
+  },
+  "grids_layouts": {
+    "hero": "Full height, centered content, abstract fluid background",
+    "reception": "Asymmetrical split 50/50, large image overlapping text box",
+    "pilates_studio": "Bento-style 2-photo grid, one tall, one square with overlapping text",
+    "oasis": "Full width image background with central glassmorphism card for text",
+    "massage": "Cozy side-by-side with organic shape crop on image",
+    "plans": "3-column grid of glassmorphic cards with metallic blue borders on hover",
+    "testimonials": "Masonry or staggered 3-column grid",
+    "footer": "Large padding, centered logo, floating CTA"
+  },
+  "components": {
+    "button": "Pill-shaped, metallic blue gradient background, soft glow, hover scale up",
+    "cards": "Glassmorphism, 1px white/10 border, inner padding p-8",
+    "navigation": "Sticky, crystal glass effect, z-50 (no transparent backgrounds)"
+  },
+  "motion": {
+    "scroll": "Lenis smooth scrolling recommended",
+    "reveals": "Framer motion staggered fade-up for all text and cards",
+    "background": "Slow pulsing and translating organic SVG blobs to mimic water/koi movement"
+  },
+  "image_urls": {
+    "hero_bg": {
+      "url": "https://images.unsplash.com/photo-1620121692029-d088224ddc74?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2OTV8MHwxfHNlYXJjaHwzfHxkYXJrJTIwYmx1ZSUyMGFic3RyYWN0JTIwZmx1aWQlMjB3YXZlcyUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzkxMzA5ODY5fDA&ixlib=rb-4.1.0&q=85",
+      "description": "Deep blue and purple flowing shapes abstract for hero section"
+    },
+    "reception": {
+      "url": "https://images.unsplash.com/photo-1781513144825-aa1e284c5950?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTN8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBzcGElMjByZWNlcHRpb24lMjBtb2Rlcm58ZW58MHx8fHwxNzkxMzA5ODYxfDA&ixlib=rb-4.1.0&q=85",
+      "description": "Modern white reception"
+    },
+    "pilates_equip": {
+      "url": "https://images.unsplash.com/photo-1717500252297-b09508db7ceb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDB8MHwxfHNlYXJjaHw0fHxwaWxhdGVzJTIwc3R1ZGlvJTIwZXF1aXBtZW50JTIwd29vZHxlbnwwfHx8fDE3OTEzMDk4NjF8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Pilates studio main equipment wood"
+    },
+    "pilates_training": {
+      "url": "https://images.unsplash.com/photo-1637666062717-1c6bcfa4a4df?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTN8MHwxfHNlYXJjaHwxfHxneW0lMjB3b3Jrb3V0JTIwYXJlYSUyMGxhcmdlJTIwbWlycm9yc3xlbnwwfHx8fDE3OTEzMDk4Njl8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Training area with large mirrors"
+    },
+    "oasis": {
+      "url": "https://images.unsplash.com/photo-1764175761882-7353885c85c4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwxfHxpbmRvb3IlMjBrb2klMjBwb25kJTIwZ3JlZW4lMjB3YWxsfGVufDB8fHx8MTc5MTMwOTg2MXww&ixlib=rb-4.1.0&q=85",
+      "description": "Indoor green wall rocks and plants"
+    },
+    "massage": {
+      "url": "https://images.unsplash.com/photo-1745327883290-1e9c6447b938?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODh8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBtYXNzYWdlJTIwdGhlcmFweSUyMHJvb20lMjB3aGl0ZXxlbnwwfHx8fDE3OTEzMDk4NjJ8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Luxury massage therapy room"
+    }
+  },
+  "instructions_to_main_agent": [
+    "Use dark mode exclusively as the base for this premium spa site. The primary backgrounds should be #050B14 or #0A1128.",
+    "Implement fluid, organic shapes (blobs or SVG waves) using CSS animations or Framer Motion to mimic the 'veil koi' concept.",
+    "Do NOT use pure Inter for text. Use Playfair Display for headings (import from Google Fonts) and Outfit for body.",
+    "Ensure all text layered over images or backgrounds is accessible (min 4.5:1 ratio). Use glassmorphism or dark gradients if needed.",
+    "The primary CTA is the WhatsApp booking button. Make sure there is a floating WhatsApp button in the bottom right corner.",
+    "Use lucide-react for icons (e.g. WhatsApp, Checkmarks for plans, Instagram).",
+    "All interactive elements MUST have a data-testid attribute.",
+    "Build the UI directly in HTML/Tailwind without relying purely on Shadcn for the marketing layout, as it requires asymmetry and overlapping grid cells."
+  ],
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "Do not center-align the whole app. Use proper grid layouts and left-align text where appropriate.",
+    "Do not apply `transition: all` as it breaks transforms.",
+    "Use 2-3x more spacing than feels comfortable (e.g., py-24, gap-12).",
+    "Ensure hover states exist for all interactive elements."
+  ]
+}
