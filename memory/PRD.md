@@ -41,6 +41,10 @@ Criar uma Landing Page moderna, elegante e responsiva para o estúdio de pilates
 - Rodapé com mapa interativo do Google Maps (iframe sem chave, pino na Rua Agrolândia 242) + botão "Como chegar" com rota de carro
 - Logotipo ampliado novamente: nav 64–80px, selo hero 96px, rodapé 112px
 
+## Deploy externo (Render)
+- date-fns recuado de 4.1.0 para 3.6.0 para resolver o conflito ERESOLVE com react-day-picker 8.10.4 (peer: ^2.28.0 || ^3.0.0)
+- Build de produção testado e aprovado (yarn build); pasta de publicação: frontend/build
+
 ## Pendências / Backlog
 - P2: fotos reais da equipe Karina, Bheatriz e Julia (hoje: avatares com iniciais)
 - P2: seção de professores com biografias; formulário de contato
