@@ -37,6 +37,7 @@ Criar uma Landing Page moderna, elegante e responsiva para o estúdio de pilates
 - Corrigido overflow horizontal no mobile (blobs com overflow-hidden nas seções Equipe/Planos); logotipo ampliado (nav 56px, selo hero 64px, rodapé 80px)
 - Seção Instagram (#instagram): embed oficial ao vivo do perfil @soulpilattes (tokenless oEmbed + embed.js, com fallback elegante) + grade de 6 fotos reais do estúdio com link para o perfil
 - Seção Convênios (#convenios): Totalpass (a partir do plano TP2) e Wellhub (a partir do plano Silver), com aviso de que o agendamento é feito diretamente pelo app do convênio; planos também mencionam os convênios
+- Card "Pratica com a gente?" na seção Depoimentos com CTA "Avaliar no Google" (hoje abre o Google Maps com a busca do estúdio; trocar pelo link direto de avaliação do Google Business quando o cliente enviar)
 - Logotipo ampliado novamente: nav 64–80px, selo hero 96px, rodapé 112px
 
 ## Pendências / Backlog

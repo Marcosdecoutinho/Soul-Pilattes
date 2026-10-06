@@ -6,6 +6,9 @@ export const STUDIO = {
     address: "Rua Agrolândia, nº 242 — Jardim Camargo Novo · São Paulo/SP",
     hours: ["Segunda a Sexta — 08h às 21h", "Sábado e Domingo — fechado"],
     instagram: "https://www.instagram.com/soulpilattes",
+    // Troque pelo link direto de avaliação: Google Business → "Pedir avaliações" → copiar link
+    googleReview:
+        "https://www.google.com/maps/search/?api=1&query=Soul+Pilattes+Rua+Agrol%C3%A2ndia+242+S%C3%A3o+Paulo",
 };
 
 export const waLink = (message) =>
