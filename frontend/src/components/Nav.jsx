@@ -10,6 +10,7 @@ const LINKS = [
     { label: "Oásis", href: "#oasis" },
     { label: "Planos", href: "#planos" },
     { label: "Depoimentos", href: "#depoimentos" },
+    { label: "Instagram", href: "#instagram" },
 ];
 
 export default function Nav() {
@@ -42,7 +43,7 @@ export default function Nav() {
                     <img
                         src={IMAGES.logo.src}
                         alt="Soul Pilattes"
-                        className="h-14 w-14 rounded-full ring-1 ring-white/15"
+                        className="h-16 w-16 rounded-full ring-1 ring-white/15 sm:h-20 sm:w-20"
                     />
                 </button>
 

@@ -13,7 +13,7 @@ export default function Footer() {
                             <img
                                 src={IMAGES.logo.src}
                                 alt="Logotipo Soul Pilattes"
-                                className="h-20 w-20 rounded-full"
+                                className="h-28 w-28 rounded-full"
                             />
                         </div>
                         <p className="mt-5 max-w-xs font-serif text-lg italic leading-relaxed text-paper/70">

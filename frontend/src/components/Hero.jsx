@@ -127,7 +127,7 @@ export default function Hero() {
                     <img
                         src={IMAGES.logo.src}
                         alt="Logotipo Soul Pilattes"
-                        className="h-16 w-16 rounded-full ring-1 ring-white/15"
+                        className="h-24 w-24 rounded-full ring-1 ring-white/15"
                     />
                     <div>
                         <p className="font-serif text-sm italic text-paper/90">

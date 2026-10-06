@@ -10,6 +10,7 @@ import Therapy from "./components/Therapy";
 import Team from "./components/Team";
 import Plans from "./components/Plans";
 import Testimonials from "./components/Testimonials";
+import InstagramFeed from "./components/Instagram";
 import Footer from "./components/Footer";
 import WhatsAppFloat from "./components/WhatsAppFloat";
 
@@ -63,6 +64,7 @@ function Landing() {
                 <Team />
                 <Plans />
                 <Testimonials />
+                <InstagramFeed />
             </main>
             <Footer />
             <WhatsAppFloat />
