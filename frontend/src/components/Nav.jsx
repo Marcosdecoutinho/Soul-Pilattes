@@ -7,7 +7,7 @@ import { WA_DEFAULT, IMAGES } from "../config";
 
 const LINKS = [
     { label: "O Estúdio", href: "#estudio" },
-    { label: "Oásis", href: "#oasis" },
+    { label: "Lago Ornamental", href: "#oasis" },
     { label: "Planos", href: "#planos" },
     { label: "Depoimentos", href: "#depoimentos" },
     { label: "Instagram", href: "#instagram" },

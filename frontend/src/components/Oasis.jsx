@@ -33,7 +33,7 @@ export default function Oasis() {
             <div className="relative z-20 mx-auto grid max-w-7xl items-center gap-10 px-6 md:px-10 lg:grid-cols-2">
                 <Reveal>
                     <div className="glass rounded-[2.5rem] p-8 shadow-card md:p-12" data-testid="oasis-card">
-                        <Eyebrow>Nosso Oásis · Diferencial Exclusivo</Eyebrow>
+                        <Eyebrow>Lago Ornamental · Diferencial Exclusivo</Eyebrow>
                         <h2 className="mt-6 font-serif text-3xl leading-tight text-paper md:text-5xl">
                             Um lago vivo dentro do estúdio
                         </h2>

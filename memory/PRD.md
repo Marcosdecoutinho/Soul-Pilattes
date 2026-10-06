@@ -33,7 +33,7 @@ Criar uma Landing Page moderna, elegante e responsiva para o estúdio de pilates
 - Dados reais: WhatsApp 5511913282658, Rua Agrolândia nº 242 — Jardim Camargo Novo/SP, Seg–Sex 08h–21h (sáb/dom fechado), Instagram @soulpilattes
 - Depoimentos reais de alunos (Agosto, Junho e Maio de 2026)
 - Seção Equipe: Karina Suzuki (Proprietária & Fisioterapeuta), Bheatriz e Julia (Fisioterapeutas & Instrutoras)
-- Oásis com 2 fotos reais (lago + carpas); sala de Terapias Manuais com foto completa no estilo das fotos de estrutura
+- Seção Lago Ornamental (#oasis, ex-"Oásis") com 2 fotos reais (lago + carpas); sala de Terapias Manuais com foto completa no estilo das fotos de estrutura
 - Corrigido overflow horizontal no mobile (blobs com overflow-hidden nas seções Equipe/Planos); logotipo ampliado (nav 56px, selo hero 64px, rodapé 80px)
 - Seção Instagram (#instagram): embed oficial ao vivo do perfil @soulpilattes (tokenless oEmbed + embed.js, com fallback elegante) + grade de 6 fotos reais do estúdio com link para o perfil
 - Seção Convênios (#convenios): Totalpass (a partir do plano TP2) e Wellhub (a partir do plano Silver), com aviso de que o agendamento é feito diretamente pelo app do convênio; planos também mencionam os convênios
