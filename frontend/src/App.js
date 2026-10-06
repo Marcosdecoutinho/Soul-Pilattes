@@ -9,6 +9,7 @@ import Oasis from "./components/Oasis";
 import Therapy from "./components/Therapy";
 import Team from "./components/Team";
 import Plans from "./components/Plans";
+import Partnerships from "./components/Partnerships";
 import Testimonials from "./components/Testimonials";
 import InstagramFeed from "./components/Instagram";
 import Footer from "./components/Footer";
@@ -63,6 +64,7 @@ function Landing() {
                 <Therapy />
                 <Team />
                 <Plans />
+                <Partnerships />
                 <Testimonials />
                 <InstagramFeed />
             </main>

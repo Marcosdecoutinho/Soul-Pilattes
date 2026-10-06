@@ -36,7 +36,8 @@ export default function Plans() {
                     <Reveal delay={0.2}>
                         <p className="max-w-xs text-sm font-light leading-relaxed text-mist">
                             Combine 1x, 2x ou 3x por semana com os planos Mensal, Trimestral, Semestral
-                            ou Anual. Valores sob consulta no WhatsApp.
+                            ou Anual. Valores sob consulta no WhatsApp. Também atendemos Totalpass
+                            (a partir do TP2) e Wellhub (a partir do Silver).
                         </p>
                     </Reveal>
                 </div>
