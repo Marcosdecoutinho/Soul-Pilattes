@@ -42,7 +42,7 @@ export default function Nav() {
                     <img
                         src={IMAGES.logo.src}
                         alt="Soul Pilattes"
-                        className="h-11 w-11 rounded-full ring-1 ring-white/15"
+                        className="h-14 w-14 rounded-full ring-1 ring-white/15"
                     />
                 </button>
 

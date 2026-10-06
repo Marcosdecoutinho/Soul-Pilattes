@@ -30,8 +30,8 @@ export default function Oasis() {
                 <div className="absolute inset-0 bg-gradient-to-b from-ink via-transparent to-ink" />
             </motion.div>
 
-            <div className="relative z-20 mx-auto max-w-7xl px-6 md:px-10">
-                <Reveal className="max-w-xl">
+            <div className="relative z-20 mx-auto grid max-w-7xl items-center gap-10 px-6 md:px-10 lg:grid-cols-2">
+                <Reveal>
                     <div className="glass rounded-[2.5rem] p-8 shadow-card md:p-12" data-testid="oasis-card">
                         <Eyebrow>Nosso Oásis · Diferencial Exclusivo</Eyebrow>
                         <h2 className="mt-6 font-serif text-3xl leading-tight text-paper md:text-5xl">
@@ -50,6 +50,23 @@ export default function Oasis() {
                             O som suave da água acompanha a respiração — e o movimento nasce na alma.
                         </p>
                     </div>
+                </Reveal>
+
+                <Reveal delay={0.15}>
+                    <figure className="relative">
+                        <div className="overflow-hidden rounded-[2rem] shadow-card ring-1 ring-white/10">
+                            <img
+                                src={IMAGES.lago2.src}
+                                alt={IMAGES.lago2.alt}
+                                className="aspect-[3/2] w-full object-cover transition-transform duration-700 hover:scale-[1.03]"
+                            />
+                        </div>
+                        <figcaption className="glass absolute bottom-4 left-4 z-10 rounded-2xl px-5 py-3">
+                            <p className="text-xs uppercase tracking-[0.25em] text-paper/80">
+                                Nossas carpas vivas
+                            </p>
+                        </figcaption>
+                    </figure>
                 </Reveal>
             </div>
 

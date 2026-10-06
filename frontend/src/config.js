@@ -41,14 +41,19 @@ export const IMAGES = {
         file: "sala-principal.jpg",
     },
     sala2: {
-        src: "/fotos/area-de-treino.jpg",
-        alt: "Área de treino com espelhos grandes, tatames e acessórios",
+        src: "/fotos/estrutura2.jpg",
+        alt: "Área de treino com espelhos grandes, tatames e aparelhos de madeira",
         file: "area-de-treino.jpg",
     },
     oasis: {
         src: "/fotos/lago.jpg",
         alt: "Lago ornamental interno com carpas vivas, cascata, pedras naturais e parede verde viva",
         file: "lago-oasis.jpg",
+    },
+    lago2: {
+        src: "/fotos/lago2.jpg",
+        alt: "Carpas vivas nadando no lago ornamental interno do estúdio",
+        file: "carpas-lago.jpg",
     },
     massagem: {
         src: "/fotos/terapias.jpg",

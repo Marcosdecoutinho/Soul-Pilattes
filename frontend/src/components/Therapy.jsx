@@ -6,15 +6,20 @@ export default function Therapy() {
         <section className="relative overflow-hidden py-24 md:py-32" data-testid="section-terapia">
             <div className="mx-auto grid max-w-7xl items-center gap-14 px-6 md:px-10 lg:grid-cols-12">
                 <Reveal className="lg:col-span-5" delay={0.1}>
-                    <div className="relative">
-                        <div className="overflow-hidden rounded-[38%_62%_55%_45%/50%_45%_55%_50%] shadow-card">
+                    <figure className="group relative">
+                        <div className="overflow-hidden rounded-[2rem] shadow-card">
                             <img
                                 src={IMAGES.massagem.src}
                                 alt={IMAGES.massagem.alt}
-                                className="aspect-[4/5] w-full object-cover transition-transform duration-700 hover:scale-[1.03]"
+                                className="aspect-[4/3] w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
                             />
                         </div>
-                    </div>
+                        <figcaption className="glass absolute bottom-4 right-4 z-10 rounded-2xl px-5 py-3">
+                            <p className="text-xs uppercase tracking-[0.25em] text-paper/80">
+                                Sala privativa · Maca profissional
+                            </p>
+                        </figcaption>
+                    </figure>
                 </Reveal>
 
                 <div className="lg:col-span-7 lg:pl-8">
@@ -23,7 +28,7 @@ export default function Therapy() {
                     </Reveal>
                     <Reveal delay={0.1}>
                         <h2 className="mt-6 font-serif text-4xl leading-tight text-paper md:text-5xl">
-                            Massoterapia em um <span className="italic text-metallic">refúgio privativo</span>
+                            Terapias Manuais em um <span className="italic text-metallic">refúgio privativo</span>
                         </h2>
                     </Reveal>
                     <Reveal delay={0.2}>

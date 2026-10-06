@@ -1,4 +1,4 @@
-import { Reveal, Eyebrow, PhotoChip } from "./shared";
+import { Reveal, Eyebrow } from "./shared";
 import { IMAGES } from "../config";
 
 export default function Studio() {
@@ -50,7 +50,6 @@ export default function Studio() {
                                     className="aspect-[4/5] w-full object-cover transition-transform duration-700 group-hover:scale-[1.03] lg:aspect-[4/4.2]"
                                 />
                             </div>
-                            <PhotoChip file={IMAGES.sala2.file} />
                             <figcaption className="glass absolute bottom-4 right-4 z-10 rounded-2xl px-5 py-3">
                                 <p className="text-xs uppercase tracking-[0.25em] text-paper/80">
                                     Espelhos · Tatames · Acessórios

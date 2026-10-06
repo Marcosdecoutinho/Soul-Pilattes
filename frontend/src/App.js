@@ -7,6 +7,7 @@ import Reception from "./components/Reception";
 import Studio from "./components/Studio";
 import Oasis from "./components/Oasis";
 import Therapy from "./components/Therapy";
+import Team from "./components/Team";
 import Plans from "./components/Plans";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
@@ -59,6 +60,7 @@ function Landing() {
                 <Studio />
                 <Oasis />
                 <Therapy />
+                <Team />
                 <Plans />
                 <Testimonials />
             </main>

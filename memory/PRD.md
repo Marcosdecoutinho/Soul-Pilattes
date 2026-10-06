@@ -32,7 +32,10 @@ Criar uma Landing Page moderna, elegante e responsiva para o estúdio de pilates
 - Planos: 1x/2x/3x por semana × Mensal/Trimestral/Semestral/Anual + modalidades (Gestantes, Idosos, Reabilitação, Jovens)
 - Dados reais: WhatsApp 5511913282658, Rua Agrolândia nº 242 — Jardim Camargo Novo/SP, Seg–Sex 08h–21h (sáb/dom fechado), Instagram @soulpilattes
 - Depoimentos reais de alunos (Agosto, Junho e Maio de 2026)
+- Seção Equipe: Karina Suzuki (Proprietária & Fisioterapeuta), Bheatriz e Julia (Fisioterapeutas & Instrutoras)
+- Oásis com 2 fotos reais (lago + carpas); sala de Terapias Manuais com foto completa no estilo das fotos de estrutura
+- Corrigido overflow horizontal no mobile (blobs com overflow-hidden nas seções Equipe/Planos); logotipo ampliado (nav 56px, selo hero 64px, rodapé 80px)
 
 ## Pendências / Backlog
-- P1: foto real da área de treino com espelhos (sala2 ainda é ilustração IA com chip "SUA FOTO AQUI")
-- P2: seção de equipe/professores; galeria de horários; formulário de contato
+- P2: fotos reais da equipe Karina, Bheatriz e Julia (hoje: avatares com iniciais)
+- P2: seção de professores com biografias; formulário de contato

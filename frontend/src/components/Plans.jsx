@@ -19,7 +19,7 @@ const MODALITIES = [
 
 export default function Plans() {
     return (
-        <section id="planos" className="relative py-24 md:py-32" data-testid="section-planos">
+        <section id="planos" className="relative overflow-hidden py-24 md:py-32" data-testid="section-planos">
             <div className="animate-drift-2 pointer-events-none absolute right-0 top-1/3 h-[26rem] w-[26rem] rounded-full bg-royal/10 blur-[130px]" />
             <div className="mx-auto max-w-7xl px-6 md:px-10">
                 <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
