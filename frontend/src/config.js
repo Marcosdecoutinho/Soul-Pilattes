@@ -9,6 +9,10 @@ export const STUDIO = {
     // Troque pelo link direto de avaliação: Google Business → "Pedir avaliações" → copiar link
     googleReview:
         "https://www.google.com/maps/search/?api=1&query=Soul+Pilattes+Rua+Agrol%C3%A2ndia+242+S%C3%A3o+Paulo",
+    mapsEmbed:
+        "https://www.google.com/maps?q=Rua%20Agrol%C3%A2ndia%2C%20242%20%E2%80%94%20Jardim%20Camargo%20Novo%2C%20S%C3%A3o%20Paulo%2FSP&output=embed",
+    directions:
+        "https://www.google.com/maps/dir/?api=1&destination=Rua%20Agrol%C3%A2ndia%2C%20242%20%E2%80%94%20Jardim%20Camargo%20Novo%2C%20S%C3%A3o%20Paulo%2FSP&travelmode=driving",
 };
 
 export const waLink = (message) =>

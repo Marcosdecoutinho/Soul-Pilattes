@@ -1,4 +1,4 @@
-import { Instagram, MapPin, Clock } from "lucide-react";
+import { Instagram, MapPin, Clock, Navigation } from "lucide-react";
 import { WhatsAppIcon, Reveal } from "./shared";
 import { STUDIO, WA_DEFAULT, IMAGES } from "../config";
 import { scrollToId } from "../lib/scroll";
@@ -7,6 +7,33 @@ export default function Footer() {
     return (
         <footer id="contato" className="relative border-t border-white/10 bg-ink-deep" data-testid="footer">
             <div className="mx-auto max-w-7xl px-6 py-20 md:px-10">
+                <Reveal>
+                    <div className="relative mb-14 overflow-hidden rounded-[2rem] shadow-card ring-1 ring-white/10">
+                        <iframe
+                            title="Mapa — Soul Pilattes, Rua Agrolândia 242, São Paulo"
+                            src={STUDIO.mapsEmbed}
+                            className="h-[320px] w-full border-0 md:h-[380px]"
+                            loading="lazy"
+                            allowFullScreen
+                            referrerPolicy="strict-origin-when-cross-origin"
+                            data-testid="footer-map"
+                        />
+                        <div className="absolute bottom-4 left-4 right-4 flex flex-col items-start justify-between gap-3 rounded-2xl border border-white/15 bg-ink/90 px-5 py-4 backdrop-blur-md sm:flex-row sm:items-center">
+                            <p className="text-sm font-light text-paper/90">{STUDIO.address}</p>
+                            <a
+                                data-testid="footer-directions-cta"
+                                href={STUDIO.directions}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex shrink-0 items-center gap-2 rounded-full bg-gradient-to-br from-royal-light to-royal-deep px-6 py-3 text-sm font-medium text-paper shadow-glow transition-transform duration-300 hover:scale-[1.04]"
+                            >
+                                <Navigation className="h-4 w-4" />
+                                Como chegar
+                            </a>
+                        </div>
+                    </div>
+                </Reveal>
+
                 <div className="grid gap-14 md:grid-cols-2 lg:grid-cols-4">
                     <div>
                         <div className="flex items-center gap-3">
